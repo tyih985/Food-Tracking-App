@@ -30,7 +30,7 @@ efficiently, or simply keep track of their favourite restaurant meals, I hope my
 - to file and have the option to do so or not
 - As a user, when I start the application, I want to be given the option to load my to-do list from file
 
-### Instructions for Grader
+### Instructions for Users
 - You can generate the first required action related to the user story "adding multiple Xs to a Y" by going to the
   "Make Dish Logs" screen, filling out the fields, and pressing the "Add" button; To view the Dish Logs you have
   created, go to the "Dish Logs" screen and press the "Refresh" button
@@ -46,7 +46,7 @@ efficiently, or simply keep track of their favourite restaurant meals, I hope my
 - You can reload the state of my application by going to the "Home" screen and pressing the "Load" button; To view the
   Dish Logs that have loaded from file, go to the "Dish Logs" screen and press the "Refresh" button
 
-### Phase 4 Task 2:
+### Examples of data persistence messages in the console:
 Mon Apr 01 16:58:03 PDT 2024
 Data saved to file.
 
@@ -74,7 +74,7 @@ Changed Dish Log 1: removed from list of Dish Logs.
 Mon Apr 01 16:59:47 PDT 2024
 Data saved to file.
 
-### Phase 4 Task 3:
+### Looking back on my project:
 Looking at my UML class diagram, I would begin refactoring the design of my program implementing the Singleton design
 pattern on the ListOfDishLog class. This is because whenever my program runs, there should only ever be one instance of
 ListOfDishLog, as the user should only have a single list of their Dish Logs in the application. Making use of the
