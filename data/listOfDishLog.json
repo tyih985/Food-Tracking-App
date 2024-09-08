@@ -1,1 +1,16 @@
-{"dish logs": []}
+{"dish logs": [
+    {
+        "price": 5000,
+        "restaurant": "Restaurant",
+        "name": "Dish Log 1",
+        "favourite": true,
+        "enjoymentLevel": 3
+    },
+    {
+        "price": 0,
+        "restaurant": "bob",
+        "name": "Tyler",
+        "favourite": false,
+        "enjoymentLevel": 1
+    }
+]}
